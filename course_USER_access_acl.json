@@ -1,0 +1,32 @@
+[
+    {
+        "keyPrefix": "s3://career-coach-catalog-files-nandini/Data/Security/",
+        "aclEntries": [
+            {
+                "Name": "qbusiness@vocareum.com",
+                "Type": "USER",
+                "Access": "ALLOW"
+            },
+ 	    {
+                "Name": "qbusiness_2@vocareum.com",
+                "Type": "USER",
+                "Access": "ALLOW"
+            }
+        ]
+    },
+        {
+        "keyPrefix": "s3://career-coach-catalog-files-nandini/Data/Medicine/",
+        "aclEntries": [
+            {
+                "Name": "qbusiness@vocareum.com",
+                "Type": "USER",
+                "Access": "ALLOW"
+            },
+ 	    {
+                "Name": "qbusiness_2@vocareum.com",
+                "Type": "USER",
+                "Access": "DENY"
+            }
+        ]
+    }
+]
